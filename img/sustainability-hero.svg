@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Illustration of a sustainable semiconductor campus">
+  <!-- Open sky and distant hills -->
+  <rect width="960" height="640" fill="#eaf3f4" />
+  <path d="M0 330 148 260l158 70 171-92 188 92 139-61 156 61v310H0z" fill="#c8e1d1" />
+  <!-- Main manufacturing campus -->
+  <path d="M125 190h525v226H125z" fill="#fff" />
+  <path d="M125 190h525v36H125z" fill="#123b50" />
+  <path d="M157 258h130v122H157zm153 0h130v122H310zm153 0h153v122H463z" fill="#d9eaed" />
+  <path d="M170 274h104v10H170zm153 0h104v10H323zm153 0h129v10H476z" fill="#00a7ce" />
+  <!-- Solar roof and water reuse tanks -->
+  <path d="M166 147h153l-12 32H154zm175 0h153l-12 32H329zm175 0h116l-12 32H504z" fill="#0068b5" />
+  <ellipse cx="745" cy="387" rx="108" ry="46" fill="#c8edf0" stroke="#0068b5" stroke-width="8" />
+  <path d="M637 387v58c0 25 48 45 108 45s108-20 108-45v-58" fill="#59b6c8" />
+  <ellipse cx="745" cy="387" rx="108" ry="46" fill="#c8edf0" stroke="#0068b5" stroke-width="8" />
+  <path d="M638 332h-72v-74m283 74h48v-77" fill="none" stroke="#00a7ce" stroke-width="12" />
+  <!-- Native trees and planted campus grounds -->
+  <path d="M0 493c171-48 318 22 480 0s314-40 480 1v146H0z" fill="#4b9b72" />
+  <path d="M87 508v-78m0 31c-36-30-62-23-70-10 7 27 33 36 70 28m0 9c32-32 57-30 67-18-7 26-30 38-67 36m725 2v-75m0 29c-34-28-58-22-66-9 7 25 31 34 66 27m0 8c30-30 54-28 63-16-6 24-28 35-63 34" fill="none" stroke="#167657" stroke-width="11" stroke-linecap="round" />
+</svg>

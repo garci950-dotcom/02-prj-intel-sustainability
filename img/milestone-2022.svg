@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Energy-efficient semiconductor campus">
+  <!-- Bright sky behind the campus -->
+  <rect width="960" height="540" fill="#eaf3f4" />
+  <path d="M0 355 180 285l152 70 170-85 175 85 139-66 144 66v185H0z" fill="#c9e2d2" />
+  <!-- Efficient manufacturing building -->
+  <path d="M115 180h590v218H115z" fill="#fff" />
+  <path d="M115 180h590v36H115z" fill="#123b50" />
+  <path d="M145 245h160v117H145zm190 0h160v117H335zm190 0h150v117H525z" fill="#d9eaed" />
+  <path d="M158 260h134v10H158zm190 0h134v10H348zm190 0h124v10H538z" fill="#00a7ce" />
+  <!-- Solar roof and clean power meter -->
+  <path d="M175 136h165l-18 37H157zm190 0h165l-18 37H347zm190 0h112l-18 37H537z" fill="#0068b5" />
+  <circle cx="816" cy="262" r="72" fill="#fff" stroke="#167657" stroke-width="12" />
+  <path d="m816 262 34-37" stroke="#0068b5" stroke-width="10" stroke-linecap="round" />
+  <circle cx="816" cy="262" r="10" fill="#123b50" />
+  <path d="M0 432c190-42 342 25 492 4s293-37 468 2v102H0z" fill="#4b9b72" />
+  <path d="M770 432v-54m0 25c-27-21-46-17-52-9 5 19 23 26 52 20m0 9c24-23 42-22 49-15-3 19-20 28-49 26" fill="none" stroke="#167657" stroke-width="9" stroke-linecap="round" />
+</svg>

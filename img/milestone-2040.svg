@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Net-zero semiconductor campus powered by clean energy">
+  <!-- Sky and distant hills -->
+  <rect width="960" height="540" fill="#eaf3f4" />
+  <path d="M0 330 158 263l170 67 183-91 167 91 132-58 150 58v210H0z" fill="#c8e1d1" />
+  <!-- Efficient campus with planted roofs -->
+  <path d="M157 211h414v164H157z" fill="#fff" />
+  <path d="M157 211h414v28H157z" fill="#123b50" />
+  <path d="M183 262h111v87H183zm133 0h111v87H316zm133 0h96v87h-96z" fill="#d9eaed" />
+  <path d="M180 191c25-28 48-25 66 0 20-23 44-23 67 0m23 0c24-28 48-25 66 0 20-23 44-23 67 0m22 0c22-25 43-24 64 0" fill="none" stroke="#167657" stroke-width="10" stroke-linecap="round" />
+  <!-- Wind turbines and solar field -->
+  <path d="M714 374V178m0 0-71-49m71 49 78-39m-78 39 8 88m125 108V236m0 0-58-41m58 41 63-32m-63 32 5 72" fill="none" stroke="#0068b5" stroke-width="9" stroke-linecap="round" />
+  <circle cx="714" cy="178" r="11" fill="#00a7ce" />
+  <circle cx="839" cy="236" r="10" fill="#00a7ce" />
+  <path d="m497 407 226-47 80 75-234 46z" fill="#0068b5" />
+  <path d="m536 399 28 73m47-89 30 77m49-93 32 81m-198 12 250-52" fill="none" stroke="#8edced" stroke-width="6" />
+  <path d="M0 455c181-30 310 23 465 0s314-48 495-1v86H0z" fill="#4b9b72" />
+</svg>

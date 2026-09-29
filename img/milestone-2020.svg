@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Water reuse systems beside a semiconductor facility">
+  <!-- Sky and distant landscape -->
+  <rect width="960" height="540" fill="#eaf3f4" />
+  <path d="M0 300 165 220l150 80 170-110 170 110 145-90 160 90v240H0z" fill="#c8e1d1" />
+  <!-- Water reuse facility -->
+  <path d="M85 170h400v190H85z" fill="#fff" />
+  <path d="M85 170h400v32H85z" fill="#123b50" />
+  <path d="M115 230h118v130H115zm145 0h118v130H260zm145 0h48v130h-48z" fill="#dce9eb" />
+  <path d="M125 245h98v7h-98zm145 0h98v7h-98z" fill="#00a7ce" />
+  <!-- Treatment tanks and connecting pipes -->
+  <ellipse cx="640" cy="368" rx="128" ry="54" fill="#93d6df" />
+  <path d="M512 368v42c0 30 57 54 128 54s128-24 128-54v-42" fill="#59b6c8" />
+  <ellipse cx="640" cy="368" rx="128" ry="54" fill="#c8edf0" stroke="#0068b5" stroke-width="8" />
+  <path d="M485 300h105v42m50-92v61m0 0h125v57" fill="none" stroke="#00a7ce" stroke-width="12" />
+  <circle cx="640" cy="368" r="16" fill="#fff" />
+  <path d="M0 450c180-28 300 34 472 9s311-34 488 0v81H0z" fill="#4b9b72" />
+</svg>

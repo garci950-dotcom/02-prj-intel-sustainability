@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Water-positive manufacturing campus with restored habitat">
+  <!-- Soft sky and green landscape -->
+  <rect width="960" height="540" fill="#eaf3f4" />
+  <path d="M0 315 186 255l174 60 165-76 194 76 120-49 121 49v225H0z" fill="#c8e1d1" />
+  <!-- Water restoration basin -->
+  <path d="M0 390c127-47 252-27 369 20s263 50 420-5 119-18 171-5v140H0z" fill="#59b6c8" />
+  <path d="M0 427c147-41 241-5 363 24s247 26 369-16 151-34 228-16" fill="none" stroke="#c8edf0" stroke-width="10" />
+  <!-- Low-impact manufacturing campus -->
+  <path d="M153 156h494v168H153z" fill="#fff" />
+  <path d="M153 156h494v30H153z" fill="#123b50" />
+  <path d="M183 210h125v91H183zm151 0h125v91H334zm151 0h132v91H485z" fill="#d9eaed" />
+  <path d="M180 132h141l-10 22H170zm163 0h141l-10 22H333zm163 0h141l-10 22H496z" fill="#0068b5" />
+  <!-- Reuse loop and habitat trees -->
+  <path d="M686 218a55 55 0 1 1-2 81" fill="none" stroke="#167657" stroke-width="12" stroke-linecap="round" />
+  <path d="m670 293 15 11-1-19" fill="#167657" />
+  <path d="M730 450v-63m0 22c-31-25-53-19-59-8 6 22 28 31 59 24m0 7c27-27 49-26 57-15-5 22-26 32-57 31M825 446v-48m0 18c-24-19-41-15-46-6 5 17 21 23 46 18m0 5c20-21 37-19 43-11-4 17-19 24-43 23" fill="none" stroke="#167657" stroke-width="9" stroke-linecap="round" />
+</svg>
