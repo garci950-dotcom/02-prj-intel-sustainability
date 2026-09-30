@@ -149,8 +149,7 @@ h1 em {
 .intro-image img {
 	display: block;
 	width: 100%;
-	height: 310px;
-	object-fit: cover;
+	height: auto;
 	transition: filter 220ms ease;
 }
 
@@ -214,7 +213,7 @@ h1 em {
 .filter-button {
 	min-height: 40px;
 	padding: 8px 14px;
-	border: 1px solid #aab9af;
+	border: 1px solid var(--muted);
 	border-radius: 2px;
 	background: transparent;
 	color: var(--ink);
@@ -348,6 +347,135 @@ h1 em {
 	font-size: 0.8rem;
 }
 
+.priorities-section {
+	padding-top: 32px;
+	padding-bottom: 40px;
+}
+
+.priorities-section > h2 {
+	margin-bottom: 14px;
+	font-size: 1.6rem;
+}
+
+.priorities-section article h3 {
+	margin-bottom: 6px;
+	font-size: 1.15rem;
+	line-height: 1.3;
+}
+
+.priorities-section article p {
+	margin-bottom: 0;
+	font-size: 0.9rem;
+	line-height: 1.5;
+}
+
+.priorities-modal-trigger {
+	--bs-btn-color: var(--blue);
+	--bs-btn-border-color: var(--blue);
+	--bs-btn-hover-color: var(--white);
+	--bs-btn-hover-bg: var(--blue);
+	--bs-btn-hover-border-color: var(--blue);
+	--bs-btn-active-color: var(--white);
+	--bs-btn-active-bg: var(--blue);
+	--bs-btn-active-border-color: var(--blue);
+	margin-top: 24px;
+}
+
+.newsletter-section {
+	padding: 96px 7% 104px;
+	background: #fff;
+}
+
+.newsletter-content {
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.newsletter-section h2 {
+	margin: 52px 0 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 2.8rem;
+	font-weight: 400;
+	line-height: 1.15;
+	text-align: center;
+}
+
+.newsletter-copy {
+	max-width: 560px;
+	margin: 0 auto 32px;
+	color: var(--muted);
+	text-align: center;
+}
+
+.newsletter-form {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.newsletter-form .form-label {
+	display: block;
+	font-weight: 700;
+	text-align: right;
+}
+
+.newsletter-form .form-control,
+.newsletter-form .btn {
+	min-height: 48px;
+	border-radius: 2px;
+}
+
+.newsletter-form .form-control {
+	border-color: var(--muted);
+}
+
+.newsletter-form .form-control:focus {
+	border-color: var(--blue);
+}
+
+.newsletter-form .form-control:focus-visible {
+	outline: 3px solid var(--ink);
+	outline-offset: 3px;
+}
+
+.newsletter-form .btn-primary {
+	border-color: var(--blue);
+	background: var(--blue);
+}
+
+.newsletter-form .btn-primary:hover {
+	border-color: var(--green);
+	background: var(--green);
+}
+
+.newsletter-form .form-text,
+.newsletter-status {
+	color: var(--muted);
+	text-align: center;
+}
+
+.newsletter-status {
+	margin: 12px 0 0;
+}
+
+.site-footer {
+	flex-wrap: wrap;
+	gap: 16px 24px;
+	background: var(--ink);
+	color: #fff;
+}
+
+.site-footer nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px 20px;
+}
+
+.site-footer nav a,
+.site-footer nav a:hover {
+	color: #fff;
+}
+
 .header-link span,
 .text-link span {
 	display: inline-block;
@@ -411,8 +539,14 @@ h1 em {
 }
 
 :focus-visible {
-	outline: 3px solid #e7a936;
+	outline: 3px solid var(--ink);
 	outline-offset: 3px;
+}
+
+.site-header :focus-visible,
+.intro :focus-visible,
+.site-footer :focus-visible {
+	outline-color: var(--white);
 }
 
 @keyframes arrive {
@@ -427,17 +561,19 @@ h1 em {
 
 @media (max-width: 900px) {
 	.intro {
-		gap: 5%;
+		display: block;
+		gap: 0;
 		padding-top: 64px;
 		padding-bottom: 72px;
 	}
 
-	h1 {
-		font-size: 3.7rem;
+	.intro-image {
+		max-width: 900px;
+		margin: 40px auto 0;
 	}
 
-	.intro-image img {
-		height: 270px;
+	h1 {
+		font-size: 3.7rem;
 	}
 
 	.section-heading h2 {
@@ -450,6 +586,20 @@ h1 em {
 	.site-footer {
 		padding-right: 5%;
 		padding-left: 5%;
+	}
+
+	.newsletter-section {
+		padding: 72px 6% 80px;
+	}
+
+	.newsletter-section h2 {
+		margin-top: 36px;
+		font-size: 2.2rem;
+	}
+
+	.site-footer {
+		align-items: flex-start;
+		flex-direction: column;
 	}
 
 	.brand {
@@ -489,10 +639,6 @@ h1 em {
 		margin-top: 36px;
 	}
 
-	.intro-image img {
-		height: 230px;
-	}
-
 	.timeline-section {
 		padding: 52px 6% 60px;
 	}
@@ -520,7 +666,7 @@ h1 em {
 		position: absolute;
 		top: 12px;
 		bottom: 12px;
-		left: 5px;
+		inset-inline-start: 5px;
 		width: 1px;
 		background: var(--line);
 		content: "";
@@ -528,7 +674,8 @@ h1 em {
 
 	.milestone {
 		display: block;
-		margin: 0 0 16px 24px;
+		margin: 0 0 16px;
+		margin-inline-start: 24px;
 		padding: 18px;
 	}
 
@@ -540,7 +687,7 @@ h1 em {
 
 	.milestone-dot {
 		position: absolute;
-		left: -42px;
+		inset-inline-start: -42px;
 		top: 50%;
 		transform: translateY(-50%);
 		background: var(--white);
@@ -557,7 +704,7 @@ h1 em {
 	}
 
 	.source-note {
-		margin-left: 24px;
+		margin-inline-start: 24px;
 	}
 }
 
